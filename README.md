@@ -1,4 +1,27 @@
-# 跨境电商 AI SOP 工作台
+# yuxiang-888 项目集
+
+本仓库将两个独立项目放在一个入口下，方便浏览和查找。它们各自维护、各自运行，不共享代码、用户数据或业务结果。
+
+## 项目导航
+
+| 项目 | 内容 | 入口 |
+| --- | --- | --- |
+| TikTok Shop 跨境运营 SOP 工作台 | 美国站运营流程、SOP 文档、单品任务工作台 | [在线工作台](https://cross-border-sop-toolkit.yux49288.chatgpt.site) · [本仓库根目录](./) |
+| 淘宝女装 AI 智能剪辑 Agent | 直播视频分析、剪辑规划、渲染与质检 | [项目目录](./projects/ai-video-editor/) · [项目说明](./projects/ai-video-editor/README.md) |
+
+## 如何查看与运行
+
+- TikTok SOP 项目位于仓库根目录，运行及构建方法见下方说明。
+- 剪辑 Agent 完整源码位于 `projects/ai-video-editor/`；请进入该目录并按其 README 安装依赖、运行测试。
+- Cloudflare 上的在线工作台继续由 Sites 独立发布；这次仓库整理不改变线上部署。
+
+## 来源与历史
+
+剪辑 Agent 子目录是从 [原 Ai- 仓库](https://github.com/yuxiang-888/Ai-) 的 `main` 分支快照整理而来（导入时提交：`70069131639c5f720e780f29c17382c14fe37d09`）。原来的两个 GitHub 仓库都保留，没有删除；剪辑项目的完整提交历史仍在原 Ai- 仓库中。本仓库用于集中查看，不表示两个产品已打通。
+
+---
+
+## TikTok Shop 跨境运营 SOP 工作台
 
 把公开仓库中的七个 Agent、方法论文档、输入模板、Prompt 和案例整理为可搜索的中文操作手册，并增加面向美国市场的 TikTok Shop 执行专栏。
 
